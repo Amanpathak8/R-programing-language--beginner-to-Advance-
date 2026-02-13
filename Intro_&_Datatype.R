@@ -129,7 +129,41 @@ typeof(intt)
 
 print("--------------------------------------------------------")
 
-com <-as.complex(348.23453)
+com <-as.complex(348.23453) # +oi will be added to make 
 print(com)
 class(com)
+
+log1<- as.logical(987) # 0 will be converted into false any thing else 
+print(log1)                  #will be. converted into true 
+
+
+char1<-as.character(5.666666)
+print(char1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
