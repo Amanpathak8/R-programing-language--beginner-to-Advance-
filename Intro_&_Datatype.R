@@ -74,16 +74,20 @@ r <- raw(4)
 print(r)
 class(r)
 
+print("--------------------------------------------------------")
 #Converting Data Types in R 
-num1 <- as.numeric(290L)  # 290L is interger as.numeric is used and converted to double 
+num1 <- as.numeric(290L)  # 290L is interger as.numeric is used and converted
+#to double 
 print(num1)
 typeof(num1)
 
-num2 <-as.numeric(890-456i)  # 890 - 456i it is complex number  converted to double  
+num2 <-as.numeric(890-456i)  # 890 - 456i it is complex number  converted
+#to double  
 print(num2) 
 typeof(num2)
 
-bol<-as.numeric(TRUE) # True is  logical it is converted to double  true = 1 , false = 0 
+bol<-as.numeric(TRUE) # True is  logical it is converted to double 
+#true = 1 , false = 0 
 print(bol)
 typeof(bol)
 
@@ -97,4 +101,35 @@ intt<-as.numeric("123456") # character to double
 print(intt)
 typeof(intt)
 
+print("-------------------Integer-------------------------------------")
+
+int<-as.integer(52.23456) #convert from numeric to integer 
+print(int)
+typeof(int)
+
+com <-as.integer(53-34i)
+print(int)
+typeof(int)
+
+
+bol<-as.integer(TRUE) # True is  logical it is converted to double  true = 1 , false = 0 
+print(bol)
+typeof(bol)
+
+
+intt<-as.integer("123456") # character to double 
+print(intt)
+typeof(intt)
+
+
+
+intt<-as.integer("1abananaa23456") # character to interger 
+print(intt) #when albatic values are presnt it will show eroor and Na 
+typeof(intt)
+
+print("--------------------------------------------------------")
+
+com <-as.complex(348.23453)
+print(com)
+class(com)
 
