@@ -21,5 +21,7 @@ while(TRUE){
   if(x > 5){
     break }}
 
-
-##################while Loop With next
+################# #R take Input from user
+name<-readline(prompt = "Enter your name: ")
+Age<-as.integer(readline((prompt = "Enter your age ")))
+print(paste(name, Age ))
