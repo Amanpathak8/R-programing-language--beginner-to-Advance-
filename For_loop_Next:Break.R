@@ -1,21 +1,24 @@
 # for loop 
 #syntax for(variable in vector)
+
 for(y in 1:10) {
 print(paste("number:",y)) # paste() is used to combine (join) values together 
   }                          #into one string.
   
-#############Loop over vector element 
-f<-c("orange","apple","banana","grapes","mango")
+#############                   Loop over vector element 
+f<-c("range","apple","banana","grapes","mango")
 for(i in f ){
   print(paste("name of fruit is ",i))}
 
-#################Loop Using Index (Position Based)##
+################# Loop Using Index (Position Based)##
+
 names <- c("Aman","Ayush","Riya")
 for(i in 1:length(names)){
   print(paste("Index:", i, "Value:", names[i]))
 }
 
 ################## Nested For Loop (Loop inside Loop)
+
 for(i in 1:3){
   for(j in 1:2){
     print(paste("i =", i, "j =", j))
@@ -23,10 +26,12 @@ for(i in 1:3){
 }
 
 #########################.      Loop Over List
+
 my_list <- list(10, "Aman", TRUE)
 for(item in my_list){
   print(item)
 }
+
 ######################.      Loop Over Matrix
 m <- matrix(1:6, nrow=2)
 
@@ -62,3 +67,14 @@ repeat { #repeat is also used for looping  without defining condition
   a <- a + 1   # increase counter
 }
 
+
+####################################
+v<-c("hello", "how", "are", "you")
+x<-2
+repeat{
+  print(v)
+  x<- x+1
+  if(x>5){
+    break
+  }
+}
