@@ -37,4 +37,3 @@ result <- switch(grade,
                  "Invalid Grade")   # default value
 print(result)   # Output: "Invalid Grade "
 
-
