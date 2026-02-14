@@ -58,8 +58,9 @@ for(val in x){
 }
 ####################
 
+#repeat is a loop that runs forever until you manually stop it using break.
 a <- 1   # initialize counter
-repeat { #repeat is also used for looping  without defining condition 
+repeat { #repeat is also used for looping  without defined condition 
   print("Hello this is data scientist aman")
   if(a >=5){
     break    # stop loop when a reaches 5
