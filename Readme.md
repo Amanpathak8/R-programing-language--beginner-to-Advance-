@@ -4,16 +4,20 @@ Welcome to my R learning journey!
 
 I have started learning **R programming language** for Data Science, and this repository will track my complete progress. I will regularly upload practice codes, exercises, and projects as I learn new concepts.
 
-#
--Intro_&_Datatype.R
--operators.R
--If-Else.R
--Switch_Case.R
--For_loop_Next:Break.R
--while_loop.R
--Function.R
--Data_structure 
----
+##  Topics Covered
+
+## 📂 Topics Covered
+
+- [Intro_&_Datatype.R](./Intro_&_Datatype.R)
+- [operators.R](./operators.R)
+- [If-Else.R](./If-Else.R)
+- [Switch_Case.R](./Switch_Case.R)
+- [For_loop_Next_Break.R](./For_loop_Next_Break.R)
+- [while_loop.R](./while_loop.R)
+- [Function.R](./Function.R)
+- [Data_structure.R](./Data_structure.R)
+
+
 
 ## 🚀 Why R?
 
