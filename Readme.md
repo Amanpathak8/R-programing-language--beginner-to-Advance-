@@ -15,7 +15,9 @@ I have started learning **R programming language** for Data Science, and this re
 - [For_loop_Next_Break.R](./For_loop_Next_Break.R)
 - [while_loop.R](./while_loop.R)
 - [Function.R](./Function.R)
-- [Data_structure.R](./Data_structure.R)
+- [Data_structure|vectors.R](./Data_structure|vectors.R)
+- [(List.R](./List.R)
+- [vector_func.R](./vector_func.R)
 
 
 
