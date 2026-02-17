@@ -15,6 +15,7 @@
 
 library("RMySQL")
 
+
 con <- dbConnect(MySQL(),
                  username = "root",
                  password = "123456789",
